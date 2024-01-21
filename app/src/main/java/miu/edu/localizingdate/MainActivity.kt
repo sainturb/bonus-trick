@@ -44,14 +44,14 @@ class MainActivity : AppCompatActivity() {
                 val localizedSunrise = getLocalizedTime(sunriseTime, this@MainActivity)
                 val localizedSunset = getLocalizedTime(sunsetTime, this@MainActivity)
                 binding.textviewSunrise.text =
-                    "${getString(Locale.CHINESE, R.string.SunriseTime)} $localizedSunrise"
+                    "${getString(Locale.SIMPLIFIED_CHINESE, R.string.SunriseTime)} $localizedSunrise"
                 binding.textviewSunset.text =
-                    "${getString(Locale.CHINESE, R.string.SunriseTime)} $localizedSunset"
+                    "${getString(Locale.SIMPLIFIED_CHINESE, R.string.SunriseTime)} $localizedSunset"
             }
         }
     }
 
-    fun Context.getString(locale: Locale, @StringRes resId: Int, vararg formatArgs: Any): String {
+    private fun Context.getString(locale: Locale, @StringRes resId: Int, vararg formatArgs: Any): String {
         var conf: Configuration = resources.configuration
         conf = Configuration(conf)
         conf.setLocale(locale)
