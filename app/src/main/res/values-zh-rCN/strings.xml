@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Sunriseset</string>
+    <string name="action_settings" translatable="false">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label" translatable="false">Local Sunrise and Sunset</string>
+    <string name="SunriseTime">"日出时间: "</string>
+    <string name="SunsetTime">"日落时间: "</string>
+</resources>

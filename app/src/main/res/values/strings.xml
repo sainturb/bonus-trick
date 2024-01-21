@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Localizing Date</string>
+    <string name="action_settings" translatable="false">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label" translatable="false">Local Sunrise and Sunset</string>
+    <string name="SunriseTime">"Sunrise Time: "</string>
+    <string name="SunsetTime">"Sunset Time: "</string>
+</resources>
